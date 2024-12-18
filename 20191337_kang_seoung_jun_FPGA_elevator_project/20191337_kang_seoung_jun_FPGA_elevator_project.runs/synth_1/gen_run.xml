@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1734395827" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/SS_Decoder.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1734491378" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/SS_Decoder.dcp">
   <File Type="PA-TCL" Name="SS_Decoder.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="SS_Decoder_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="SS_Decoder_reports.tcl"/>
@@ -13,7 +13,7 @@
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/code/debouncer.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../code/debouncer.v"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../veril/code/debouncer.v"/>
         <Attr Name="ImportTime" Val="1732348302"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -22,7 +22,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/code/SS_Decoder.v">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../code/SS_Decoder.v"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../veril/code/SS_Decoder.v"/>
         <Attr Name="ImportTime" Val="1734366002"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -39,7 +39,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/imports/code/Nexys4DDR_Master.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../code/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../veril/code/Nexys4DDR_Master.xdc"/>
         <Attr Name="ImportTime" Val="1734366079"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

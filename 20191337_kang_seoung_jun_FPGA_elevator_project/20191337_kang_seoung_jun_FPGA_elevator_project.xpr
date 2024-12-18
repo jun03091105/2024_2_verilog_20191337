@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="67" Path="C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.xpr">
+<Project Product="Vivado" Version="7" Minor="67" Path="C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="313becea76d948309a5552dec06319f7"/>
@@ -91,7 +91,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/imports/code/debouncer.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../code/debouncer.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../veril/code/debouncer.v"/>
           <Attr Name="ImportTime" Val="1732348302"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -100,7 +100,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/code/SS_Decoder.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../code/SS_Decoder.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../veril/code/SS_Decoder.v"/>
           <Attr Name="ImportTime" Val="1734366002"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -117,7 +117,7 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/code/Nexys4DDR_Master.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../code/Nexys4DDR_Master.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../veril/code/Nexys4DDR_Master.xdc"/>
           <Attr Name="ImportTime" Val="1734366079"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

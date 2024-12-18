@@ -1,5 +1,28 @@
 `timescale 1ns / 1ps
 
+// Debouncer module
+module debouncer(
+    input clk,
+    input I,
+    output reg O
+    );
+    
+    reg [19:0] cnt = 0;  
+    reg Iv = 0;
+    
+    always @(posedge clk) begin
+        if (I == Iv) begin
+            if (cnt == 20'd999_999)  
+                O <= I;
+            else
+                cnt <= cnt + 1;
+        end else begin
+            cnt <= 0;
+            Iv <= I;
+        end
+    end
+    
+endmodule
 
 module SS_Decoder(
     input clock,

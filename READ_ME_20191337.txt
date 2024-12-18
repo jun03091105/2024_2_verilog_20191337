@@ -8,7 +8,6 @@
 
 20191337_kang_seoung_jun_FPGA_elevator_project 폴더: 베릴로그 vivado 전체 폴더입니다.
 
-코드만~~폴더: 전체 비바도 폴더에서 베릴로그 코드+XDC만 따로 복사한 복사본입니다.
 .
 영상: 시연영상
 

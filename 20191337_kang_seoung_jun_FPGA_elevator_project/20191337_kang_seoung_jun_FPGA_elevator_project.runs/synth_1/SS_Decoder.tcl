@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.runs/synth_1/SS_Decoder.tcl"
+  variable script "C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.runs/synth_1/SS_Decoder.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,25 +56,23 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.cache/wt [current_project]
-set_property parent.project_path C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.cache/wt [current_project]
+set_property parent.project_path C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.cache/ip [current_project]
+set_property ip_output_repo c:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/sources_1/imports/code/debouncer.v
-  C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/sources_1/imports/code/SS_Decoder.v
+  C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/sources_1/imports/code/debouncer.v
+  C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/sources_1/imports/code/SS_Decoder.v
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -85,12 +83,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/constrs_1/imports/code/Nexys4DDR_Master.xdc
-set_property used_in_implementation false [get_files C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/constrs_1/imports/code/Nexys4DDR_Master.xdc]
+read_xdc C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/constrs_1/imports/code/Nexys4DDR_Master.xdc
+set_property used_in_implementation false [get_files C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/constrs_1/imports/code/Nexys4DDR_Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/Users/user/Desktop/veril/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/utils_1/imports/synth_1/SS_Decoder.dcp
+read_checkpoint -auto_incremental -incremental C:/Users/user/Desktop/20191337_Kang_Seoung_jun_project/20191337_kang_seoung_jun_FPGA_elevator_project/20191337_kang_seoung_jun_FPGA_elevator_project.srcs/utils_1/imports/synth_1/SS_Decoder.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
