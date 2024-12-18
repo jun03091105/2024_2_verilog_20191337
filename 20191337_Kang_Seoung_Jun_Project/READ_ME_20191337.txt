@@ -1,0 +1,22 @@
+20191337_강성준_창업연계융합설계
+
+깃허브 URL: https://github.com/jun03091105/2024_2_verilog_20191337.git
+
+영상 유튜브 URL: https://youtu.be/ID3XCSdN02A?list=LL
+
+압축 폴더 내부 내용설명
+
+20191337_kang_seoung_jun_FPGA_elevator_project 폴더: 베릴로그 vivado 전체 폴더입니다.
+
+영상: 시연영상
+
+pdf: 제출 보고서 
+
+
+FPGA동작 방법
+
+스위치로 층수 선택
+N17버튼으로 동작 시작
+M18(증가), P18버튼(감소)으로 인원수 조작
+P17버튼 꾹 눌러서 비상정지 동작, M17눌러서 다시 동작
+ 
