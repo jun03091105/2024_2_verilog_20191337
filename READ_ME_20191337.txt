@@ -1,0 +1,15 @@
+20191337_강성준_창업연계융합설계
+
+깃허브 URL: https://github.com/jun03091105/2024_2_verilog_20191337.git
+
+영상 유튜브 URL: https://youtu.be/ID3XCSdN02A?list=LL
+
+압축 폴더 내부 내용설명
+
+20191337_kang_seoung_jun_FPGA_elevator_project 폴더: 베릴로그 vivado 전체 폴더입니다.
+
+코드만~~폴더: 전체 비바도 폴더에서 베릴로그 코드+XDC만 따로 복사한 복사본입니다.
+.
+영상: 시연영상
+
+pdf: 제출 보고서 
